@@ -14,4 +14,3 @@ public class pattern05_resrightangle {
         s1.pattern(n);
 }
 }
-
