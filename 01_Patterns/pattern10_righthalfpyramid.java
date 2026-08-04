@@ -18,3 +18,10 @@ public class pattern10_righthalfpyramid {
     }
     
 }
+/*
+ *
+   **
+  ***
+ ****
+*****
+*/
