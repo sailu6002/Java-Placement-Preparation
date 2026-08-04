@@ -1,4 +1,4 @@
-public class pattern08_rightframbus {
+public class pattern09_rightframbus {
     public void pattern(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
@@ -15,7 +15,7 @@ public class pattern08_rightframbus {
     }
     public static void main(String[] args) {
         int n=5;
-        pattern08_rightframbus s1=new pattern08_rightframbus();
+        pattern09_rightframbus s1=new pattern09_rightframbus();
         s1.pattern(n);
         
     }}
