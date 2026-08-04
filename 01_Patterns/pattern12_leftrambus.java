@@ -27,3 +27,14 @@ public class pattern12_leftrambus {
     }
     
 }
+/*
+  *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
+*/
