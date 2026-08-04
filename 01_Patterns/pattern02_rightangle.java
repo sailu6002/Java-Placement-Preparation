@@ -15,3 +15,10 @@ public class pattern02_rightangle{
     } 
     
 }
+/*
+*
+* *
+* * *
+* * * *
+* * * * *
+    */
