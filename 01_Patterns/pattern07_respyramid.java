@@ -12,7 +12,7 @@ public class pattern07_respyramid {
     }
     public static void main(String[] args) {
         int n=5;
-        pattern06_pyramid s1=new  pattern06_pyramid();
+        pattern07_respyramid s1=new  pattern07_respyramid();
         s1.pattern(n);
 }
     
