@@ -17,3 +17,10 @@ public class pattern06_pyramid {
 }
     
 }
+/*
+  *
+   ***
+  *****
+ *******
+*********
+*/
