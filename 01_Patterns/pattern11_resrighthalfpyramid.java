@@ -18,3 +18,10 @@ public class pattern11_resrighthalfpyramid {
     }
     
 }
+/*
+*****
+ ****
+  ***
+   **
+    *
+*/
