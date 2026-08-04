@@ -19,5 +19,17 @@ public class pattern09_rightrambus {
         s1.pattern(n);
         
     }}
+/*
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+*/
+
     
 
