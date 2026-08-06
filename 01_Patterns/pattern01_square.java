@@ -13,3 +13,11 @@ public class pattern01_square{
         s.solution(n);
     }
 }
+
+/*
+*****
+*****
+*****
+*****
+*****
+*/
