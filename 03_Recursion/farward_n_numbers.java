@@ -17,7 +17,7 @@ public class farward_n_numbers {
     public static void main(String[] args) {
         farward_n_numbers sol=new farward_n_numbers();
         int n=5;
-        sol.printName(1,n);
+        sol.printName( 1,n);
         System.out.println();
         sol.back_tracking(1, n);
     }
