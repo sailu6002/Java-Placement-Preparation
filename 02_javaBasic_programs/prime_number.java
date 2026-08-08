@@ -1,4 +1,5 @@
-public class PrimeNumber {
+public class prime_number {
+
     public static boolean prime(int n) {
         if (n <= 1) {
             return false;
