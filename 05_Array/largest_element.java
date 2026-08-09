@@ -1,5 +1,3 @@
-
-
 public class largest_element {
     public static int largest(int[] arr,int n){
         int max=arr[0];
