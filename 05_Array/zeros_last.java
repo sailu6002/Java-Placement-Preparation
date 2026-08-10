@@ -1,7 +1,16 @@
-public class zeors_last {
+public class zeros_last {
     public void zeroslast(int[] arr){
-        int j=0;
+        int j=-1;
         for(int i=0;i<arr.length;i++){
+            if(arr[i]==0){
+                j=i;
+                break;
+            }
+        }
+        if(j==-1){
+            return ;
+        }
+        for(int i=1;i<arr.length;i++){
             if(arr[i]!=0){
                 int temp=arr[i];
                 arr[i]=arr[j];
@@ -14,7 +23,7 @@ public class zeors_last {
         }
     }
     public static void main(String[] args){
-        zeors_last obj=new zeors_last();
+        zeros_last obj=new zeros_last();
         int[] arr={1,0,3,0,2,4};
         obj.zeroslast(arr);
     }
