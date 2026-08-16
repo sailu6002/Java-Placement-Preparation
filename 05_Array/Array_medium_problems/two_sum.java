@@ -9,6 +9,8 @@ public class two_sum {
             }
         }
         return new int[]{-1,-1};
+
+/* 
     //optimal- approach
         int n=nums.length;
         int left=0;
@@ -27,7 +29,7 @@ public class two_sum {
         }
         return new int[]{-1,-1};
 
-
+*/
     }
     public static void main(String[] args) {
         two_sum obj=new two_sum();

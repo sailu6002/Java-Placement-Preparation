@@ -3,9 +3,8 @@ public class fibbonacci {
         if(n<=1){
             return n;
         }
-        int first=fibbo(n-1);
-        int second=fibbo(n-2);
-        return first+second;
+        int fn=fibbo(n-1)+fibbo(n-2);
+        return fn;
 
     }
     public static void main(String[] args) {
