@@ -1,3 +1,4 @@
+import java.util.*;
 public class two_sum {
     public  int[] sum(int[] nums,int target){
         for(int i=0;i<nums.length;i++){
