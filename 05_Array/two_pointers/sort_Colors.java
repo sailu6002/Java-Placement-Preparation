@@ -12,7 +12,7 @@ public class sort_Colors{
                 mid++;
 
             }
-            else if(arr[mid]==1){
+            if(arr[mid]==1){
                 mid++;
             }
             else{
