@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// leetcode 283
 public class move_zeros {
     public static void move(int[] arr){
         int i=0;

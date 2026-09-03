@@ -1,0 +1,43 @@
+import java.util.*;
+public class three_sum {
+    public static List<List<Integer>> three(int[] arr){
+        Arrays.sort(arr);
+        List<List<Integer>> result=new ArrayList<>();
+      
+        for(int i=0;i<arr.length-2;i++){
+            if(i>0 && arr[i]==arr[i-1]){
+                continue;
+            }
+            int left=i+1;
+            int right=arr.length-1;
+            while(left<right){
+                int sum=arr[i]+arr[left]+arr[right];
+                if(sum==0){
+                    result.add(Arrays.asList(arr[i],arr[left],arr[right]));
+                    while (left < right && arr[left] == arr[left + 1]) { // left pointer remove duplicates or skip 
+                        left++;
+                    }
+
+                    while (left < right && arr[right] == arr[right - 1]) {// right side remove remove duplicate or skip 
+                        right--;
+                    }
+                    left++;
+                    right--;
+                }
+                else if(sum>0){
+                    right--;
+                }
+                else{
+                    left++;
+                }
+            }
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+        int[] arr={-1,0,1,1,2,-1,-4};
+        List<List<Integer>> ans=three(arr);
+        System.out.println(ans);
+    }
+    
+}

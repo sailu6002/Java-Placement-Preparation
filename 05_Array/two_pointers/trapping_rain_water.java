@@ -1,3 +1,4 @@
+//leetcode 42 : how much rain water trapped(stored) after raingning we have to fing water quantity
 public class trapping_rain_water {
     public static int trapping(int[] height){
         int low=0;
