@@ -1,4 +1,4 @@
-public class two_sum {
+public class two_sums {
     public int[] sum(int[] nums,int target){
         //brute force approach
         for(int i=0;i<nums.length;i++){
@@ -32,7 +32,7 @@ public class two_sum {
 */
     }
     public static void main(String[] args) {
-        two_sum obj=new two_sum();
+        two_sums obj=new two_sums();
         int[] nums={2,7,11,15};
         int target=9;
         int[] result=obj.sum(nums, target);

@@ -11,7 +11,7 @@ public class sort_colors {
                 low++;
                 mid++;
             }
-            else if(nums[mid]==1){
+            if(nums[mid]==1){
                 mid++;
             }
             else{

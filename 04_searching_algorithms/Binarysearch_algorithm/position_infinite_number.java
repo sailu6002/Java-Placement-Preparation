@@ -1,4 +1,4 @@
-//gfg : Find position of an element in a sorted array of infinite numbers
+//gfg : Find position of an element in a sorted array of infinite numbers with out using length function
 
 public class position_infinite_number {
     public static int findrange(int[] arr, int target){
